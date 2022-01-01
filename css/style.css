@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.logo {
+  margin-left: 15%;
+  font-weight: bold;
+  color: white;
+  margin-top: 40px;
+  z-index: 3; }
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  opacity: 0.2;
+  margin-top: -58px;
+  z-index: 2; }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0px; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px; }
+    nav ul li {
+      margin: 0 10px;
+      z-index: 4; }
+      nav ul li a {
+        color: white;
+        transition: 0.4s; }
+      nav ul li a:hover {
+        color: black;
+        padding: 40px 10px;
+        background-color: yellow; }
+
+.call {
+  font-weight: bold;
+  margin-right: 15%;
+  z-index: 3;
+  color: white;
+  margin-top: 40px; }
+
+.maincontent .mainimg {
+  position: relative;
+  margin-top: -150px;
+  width: 100%;
+  height: 710px; }
+
+.maincontent h1 {
+  position: absolute;
+  font-size: 50px;
+  margin-left: 15%;
+  color: white;
+  z-index: 4;
+  margin-top: -67vh; }
+
+.maincontent h5 {
+  position: absolute;
+  margin-left: 15%;
+  color: white;
+  z-index: 3;
+  margin-top: -45vh; }
+
+.maincontent button {
+  position: absolute;
+  display: block;
+  width: 150px;
+  height: 40px;
+  background-color: #ffc634;
+  margin-left: 15%;
+  color: black;
+  z-index: 3;
+  margin-top: -38vh;
+  border: 0px solid;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+.secondcontent {
+  position: relative;
+  background-color: #eeeeee;
+  width: 100%;
+  height: 650px;
+  margin-top: 0px; }
+  .secondcontent h1 {
+    text-align: center;
+    padding-top: 75px;
+    letter-spacing: 1px; }
+  .secondcontent h5 {
+    text-align: center;
+    margin-top: 10px; }
+  .secondcontent img {
+    width: 575px;
+    height: 375px;
+    margin-top: -250px;
+    margin-left: 50%; }
+  .secondcontent p {
+    margin-left: 15%; }
+  .secondcontent .tarih {
+    margin-top: 70px;
+    font-size: 35px;
+    color: #3c3c3c; }
+  .secondcontent .metin {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #3c3c3c; }
+  .secondcontent .tarih2 {
+    margin-top: 50px;
+    font-size: 35px;
+    color: #3c3c3c; }
+  .secondcontent .metin2 {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #3c3c3c; }
+  .secondcontent button {
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #ffc634;
+    margin-left: 15%;
+    color: black;
+    z-index: 3;
+    margin-top: -11vh;
+    border: 0px solid;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
+
+.services h1 {
+  text-align: center;
+  padding-top: 75px;
+  letter-spacing: 1px; }
+
+.services h5 {
+  text-align: center;
+  margin-top: 10px; }
+
+.services .products {
+  display: flex;
+  flex-direction: row;
+  margin-left: 255px; }
+  .services .products img {
+    width: 250px;
+    height: 350px;
+    margin-left: 25px;
+    margin-top: 75px; }
+
+.news {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 750px;
+  margin-top: 120px; }
+  .news h1 {
+    text-align: center;
+    padding-top: 75px;
+    letter-spacing: 1px; }
+  .news h5 {
+    text-align: center;
+    margin-top: 10px; }
+  .news img {
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    margin-top: 75px;
+    margin-left: 15%; }
+  .news table {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    margin-top: 425px;
+    margin-left: 15%;
+    background-color: #ffc634; }
+  .news p {
+    margin-left: 750px; }
+  .news .baslik {
+    text-transform: uppercase;
+    margin-top: 86px;
+    font-size: 25px;
+    color: #3c3c3c; }
+  .news .tarih {
+    font-size: 15px;
+    margin-top: 15px;
+    color: #ffc634; }
+  .news .metin {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #3c3c3c; }
+  .news .more {
+    margin-top: 25px;
+    font-size: 13px;
+    color: black;
+    font-weight: bolder; }
+  .news .baslik2 {
+    text-transform: uppercase;
+    margin-top: 70px;
+    font-size: 25px;
+    color: #3c3c3c; }
+  .news .tarih2 {
+    font-size: 15px;
+    margin-top: 15px;
+    color: #ffc634; }
+  .news .metin2 {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #3c3c3c; }
+  .news .more2 {
+    margin-top: 25px;
+    font-size: 13px;
+    color: black;
+    font-weight: bolder; }
+
+footer {
+  width: 100%;
+  height: 175px;
+  background-color: #313131; }
